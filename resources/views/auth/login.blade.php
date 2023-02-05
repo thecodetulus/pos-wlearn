@@ -8,7 +8,7 @@
     <div class="login-box-body">
         <div class="login-logo">
             <a href="{{ url('/') }}">
-            <img src="{{ asset('img/logo1.png') }}" alt="logo.png" width="100">
+            <img src="{{ asset('img/logo2.png') }}" alt="logo.png" width="100">
             </a>
           </div>
   
