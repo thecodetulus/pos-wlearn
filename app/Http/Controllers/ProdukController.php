@@ -140,4 +140,15 @@ class ProdukController extends Controller
             return response(null, 204);
         }
     }
+
+    public function deleteSelected(Request $request)
+    {
+        foreach ($request->id_produk as $id) {
+            $produk = Produk::find($id);
+            $produk->delete();
+        }
+
+        return response(null, 204);
+    }
+
 }
