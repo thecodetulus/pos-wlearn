@@ -6,7 +6,7 @@
 
 @section('breadcrumb')
     @parent
-    <li class="active">Dashboard</li>
+    <li class="active">Daftar Kategori</li>
 @endsection
 
 @section('content')
